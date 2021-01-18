@@ -1,0 +1,55 @@
+button {
+  height: 200px;
+  width: 200px;
+  margin: 40px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+h1 {
+  margin: 0 5% 5%;
+  font-size: 4rem;
+  font-family: 'Fraunces', serif;
+  color: #f5f4f4;
+}
+
+body {
+  text-align: center;
+  background-color: #0f3057;
+}
+
+footer {
+  color: #f5f4f4;
+}
+
+.buttons {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.game-over {
+  background-color: #ec4646;
+  opacity: 0.8;
+}
